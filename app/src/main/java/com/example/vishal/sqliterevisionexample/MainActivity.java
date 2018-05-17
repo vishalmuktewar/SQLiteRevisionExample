@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         list = new ArrayList<>();
         dbHelper = new DBHelper(this);
+        TextView textView = findViewById(R.id.tv_address);
 
         mEditName = findViewById(R.id.et_name);
         mEditPhoneNumber = findViewById(R.id.et_phone);
